@@ -6,7 +6,6 @@ async function Header() {
   const user: boolean = true;
   return (
     <header className={styles.header}>
-      {/* <h1>Componentes</h1> */}
       <nav className={`${styles.nav}  container`}>
         <Link className={styles.logo} href={"/"}>
           <Image
